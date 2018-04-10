@@ -1,7 +1,3 @@
-/* .main-story{
-    font-size: 40px;
-} */
-
 header{
   display: flex;
   align-items: center;
@@ -32,60 +28,82 @@ nav{
   padding: 20px 10px;
 }
 
-div,
-h2,
-p,
-img{
-  /* border: 1px solid black; */
-  margin-right: 12px;
+div
+{
+  border: 1px solid black;
+  /* margin-right: 12px; */
 }
 a{
   color: black;
 }
 
-.image-div{
-  display: flex;
-}
+
 .headlines{
   display:flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
+/* .main-story{
+    font-size: 40px;
+    text-align: left;
+} */
 .story-text{
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 15px;
   color: black;
 }
+/* supposed to be 17px */
 
 
 
 .main-container{
   display: flex;
-
+  justify-content:center;
+  padding: 116px;
+  /* width: 1232px; */
+  /* margin: 0px auto 78px auto; */
+  /* width:100%; */
 }
 
 .column{
   display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  /* justify-content: space-around; */
 }
 
-.column.large {
+.large {
   width: 630px;
 }
 
-.column.medium {
+.medium {
   width: 300px;
 }
 
-.column.small {
+.small {
   width: 240px;
 }
 
+.story{
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+}
 
+.image-div{
+  display: flex;
+  height: 300px;
+
+  /* flex-grow: 1; */
+}
 
 #main-image{
   background-image: url(../images/img-story-main.png);
+  width: 630px;
+  margin-top: 0px;
 }
 #fall-image{
   background-image: url(../images/img-story-2.png);
