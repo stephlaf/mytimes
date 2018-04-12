@@ -11,7 +11,12 @@ header{
   font-weight: bold;
   border-bottom: 1px solid black;
 }
-
+nav{
+  padding-right: 40px;
+}
+a{
+  color: black;
+}
 .logo{
   color: MediumAquamarine;
   display: flex;
@@ -19,32 +24,23 @@ header{
   flex-grow: 1;
   padding-left: 30px;
 }
-
-nav{
-  padding-right: 40px;
+.title{
+  padding-left: 12px;
 }
-
 .nav{
   display: inline-block;
   padding: 20px 10px;
 }
-
-a{
-  color: black;
-}
-
 .stories{
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
 }
-
 .story{
   display: flex;
   flex-direction: column;
   width: 300px;
 }
-
 .headlines{
   display:flex;
   font-family: Georgia;
@@ -63,49 +59,33 @@ a{
   font-size: 15px;
   color: black;
 }
-/* supposed to be 17px */
-
-
-
 .main-container{
   display: flex;
   justify-content:center;
   padding: 116px;
-  /* width: 1232px; */
-  /* margin: 0px auto 78px auto; */
-  /* width:100%; */
 }
-
 .column{
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-  /* justify-content: space-around; */
 }
-
 .large {
-  /* align-items: flex-start; */
   width: 630px;
+  margin-left: 32px;
 }
-
 .medium {
   width: 300px;
 }
-
 .small {
   width: 240px;
-  /* padding-top: 20px; */
 }
 .small-img{
   width: 240px;
 }
-
-
 .image-div{
   display: flex;
   height: 300px;
 }
-
 .news-bites-header{
   font-size: 16px;
   font-weight: bold;
@@ -114,7 +94,6 @@ a{
   margin: : 16px 0px 41px 0px;
   padding-bottom: 30px;
 }
-
 .bites{
   background-color: WhiteSmoke;
   font-family: Verdana;
@@ -126,7 +105,6 @@ a{
 .cookie{
   height: 240px;
 }
-
 .footer{
   background-color: MediumAquamarine;
   margin: auto;
@@ -142,7 +120,6 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: row; */
 }
 .footer-p{
   text-align: center;
